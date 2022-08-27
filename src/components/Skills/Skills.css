@@ -1,0 +1,263 @@
+.skills-wrapper {
+    min-height: 880px;
+    padding-top: 150px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+}
+
+.skills-content-wrapper {
+    margin-left: 135px;
+    margin-right: 135px;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.skills-section-subtitle {
+    /* margin-top: 150px; */
+    margin-bottom: 0;
+    font-family: Sulphur Point;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #F07867;
+}
+
+.skills-section-title {
+    margin-top: 21px;
+    margin-bottom: 25px;
+    font-family: Sulphur Point;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 64px;
+    color: #333333;
+}
+
+.skills-check-block {
+
+}
+
+.skills-check-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.skills-for-one-skill {
+    display: flex;
+    flex-direction: row;
+}
+
+.skills-skill-icon {
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+
+.skills-skill-name {
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+}
+
+.skills-images-wrapper {
+    text-align: right;
+}
+
+.skills-blue-block {
+    width: 270px;
+    height: 352px;
+    background: #44AFE0;
+    border-radius: 20px;
+    position: relative;
+    justify-content: flex-end;
+    z-index: 5;
+    top: 160px;
+    left: 560px;
+}
+
+.skills-blue-block-yellow-circle {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background: #F6B443;
+    position: relative;
+    top: 50px;
+    left: 150px;
+}
+
+.skills-blue-block-big-line {
+    width: 119px;
+    height: 16px;
+    background: #C1E4F4;
+    border-radius: 4px;
+    position: relative;
+    top: 80px;
+    left: 125px;
+}
+
+.skills-blue-block-small-line {
+    width: 97px;
+    height: 16px;
+    background: #C1E4F4;
+    border-radius: 4px;
+    position: relative;
+    top: 90px;
+    left: 145px;
+}
+
+.skills-blue-block-line {
+    position: relative;
+    top: 140px;
+}
+
+.skills-blue-block-white-red-point {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 6px solid #FFFFFF;
+    background-color: #ED3833;
+    position: relative;
+    top: 95px;
+    left: 170px;
+}
+
+.skills-white-block {
+    /* display: none; */
+    width: 370px;
+    height: 352px;
+    padding: 40px 35px;
+    display: grid;
+    grid-template-rows: 65% 35%;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 39, 57, 0.100402);
+    border-radius: 20px;
+    z-index: 7;
+    position: relative;
+    bottom: 320px;
+    left: 250px;
+}
+
+.skills-white-block-first-row {
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+
+.skills-white-block-yellow-square {
+    width: 160px;
+    height: 160px;
+    background: #F6B443;
+    border-radius: 15px;
+}
+
+.skills-white-block-input-lines {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.skills-white-block-first-input-line {
+    width: 107px;
+    height: 42px;
+    background: #C1E4F4;
+    border-radius: 8px;
+}
+
+.skills-white-block-second-input-line {
+    width: 85px;
+    height: 16px;
+    margin-top: 14px;
+    background: #C1E4F4;
+    border-radius: 4px;
+}
+
+.skills-white-block-third-input-line {
+    width: 69px;
+    height: 16px;
+    margin-top: 8px;
+    background: #C1E4F4;
+    border-radius: 4px;
+}
+
+.skills-white-block-second-row {
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+
+.skills-white-block-scale {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 20px;
+
+}
+
+.skills-scale-line {
+    width: 8px;
+    background: #F6B443;
+    border-radius: 8px;
+}
+
+.skills-scale-1 {
+    height: 48px;
+}
+
+.skills-scale-2 {
+    height: 64px;
+}
+
+.skills-scale-3 {
+    height: 48px;
+}
+
+.skills-scale-4 {
+    height: 80px;
+}
+
+.skills-scale-5 {
+    height: 56px;
+}
+
+.skills-scale-6 {
+    height: 40px;
+}
+
+.skills-scale-7 {
+    height: 48px;
+}
+
+.skills-white-block-clock-wrapper {
+    padding-top: 40px;
+    display: block;
+    position: relative;
+}
+
+.skills-white-block-clock-wrapper {
+    z-index: 1;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.skills-clock-path {
+    display: flex;
+    position: relative;
+    top: 50px;
+    z-index: 5;
+}
+
+.skills-polygon {
+    position: absolute; 
+    right: 0;
+    z-index: 1;
+    /* top: 50px; */
+}

@@ -1,0 +1,102 @@
+.numbers-wrapper {
+    min-height: 880px;
+    width: 100%;
+    padding-top: 50px;
+    box-sizing: border-box;
+    /* display: flex;
+    flex-direction: row;
+    text-align: center; */
+}
+
+.numbers-content-wrapper {
+    margin-left: 135px;
+    margin-right: 135px;
+    text-align: center;
+}
+
+.numbers-section-subtitle {
+    /* margin-top: 150px; */
+    margin-bottom: 0;
+    font-family: Sulphur Point;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #F07867;
+}
+
+.numbers-section-title {
+    margin-top: 21px;
+    margin-bottom: 25px;
+    font-family: Sulphur Point;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 64px;
+    color: #333333;
+}
+
+.numbers-blocks-wrapper {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.numbers-block-card {
+    width: 90%;
+    padding-top: 112px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.numbers-block-card-circle-blue {
+    width: 86px;
+    height: 86px;
+    margin-bottom: 29px;
+    border-radius: 50%;
+    background: #44AFE0;
+}
+
+.numbers-block-card-circle-red {
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+    margin-bottom: 29px;
+    background: #ED3833;
+}
+
+.numbers-block-card-circle-yellow {
+    width: 86px;
+    height: 86px;
+    margin-bottom: 29px;
+    border-radius: 50%;
+    background: #F6B443;
+}
+
+.numbers-card-header {
+    width: 117px;
+    height: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Sulphur Point;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 80px;
+    text-align: center;
+    color: #333333;
+}
+
+.numbers-card-text {
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: normal;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: rgba(51, 51, 51, 0.501557);
+}

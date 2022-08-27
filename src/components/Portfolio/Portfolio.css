@@ -1,0 +1,194 @@
+.potfolio-wrapper {
+    min-height: 880px;
+    box-sizing: border-box;
+}
+
+.portfolio-content-wrapper {
+    margin-left: 135px;
+    margin-right: 135px;
+    text-align: left;
+}
+
+.portfolio-information-wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.portfolio-section-subtitle {
+    margin-top: 150px;
+    margin-bottom: 0;
+    font-family: Sulphur Point;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #F07867;
+}
+  
+.portfolio-section-title {
+    margin-top: 21px;
+    margin-bottom: 25px;
+    font-family: Sulphur Point;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 64px;
+    color: #333333;
+}
+
+.portfolio-section-description {
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.portfolio-btn-wrapper {
+    text-align: right;
+}
+
+.portfolio-show-more-btn {
+    z-index: 2;
+    width: 170px;
+    height: 48px;
+    margin-top: 300px;
+    cursor: pointer;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(51, 51, 51, 0.503623);
+    border: 1.5px solid rgba(237, 56, 51, 0.299706);
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.portfolio-show-more-btn:hover {
+    border: 2px solid rgb(236, 56, 51);
+    color: rgb(236, 56, 51);
+    background-color: rgba(255, 255, 255, 0.295743);
+    font-weight: bold;
+}
+
+.portfolio-cards-wrapper {
+    padding-top: 65px;
+    justify-items:baseline
+}
+
+.portfolio-cards-first-row {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: 100%;
+}
+
+.portfolio-cards-for-hide-show {
+    display: none;
+    grid-template-columns: 33% 33% 33%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.portfolio-card-item {
+    width: 95%;
+    height: 400px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+
+#HelperCard {
+    background: linear-gradient(180deg, rgba(68, 175, 224, 0.0001) 0%, #44AFE0 100%), url(./Artwork.jpg);
+    background-size: cover;
+}
+
+#MovieCard {
+    background: linear-gradient(180deg, rgba(68, 175, 224, 0.0001) 0%, #44AFE0 100%), url(./Artwork.jpg);
+    background-size: cover;
+}
+
+#CurrencyCard {
+    background: linear-gradient(180deg, rgba(68, 175, 224, 0.0001) 0%, #44AFE0 100%), url(./Artwork.jpg);
+    background-size: cover;
+}
+
+#PiggyCard {
+    background: linear-gradient(180deg, rgba(68, 175, 224, 0.0001) 0%, #44AFE0 100%), url(./Artwork.jpg);
+    background-size: cover;
+}
+
+#TaskTrackerCard {
+    background: linear-gradient(180deg, rgba(68, 175, 224, 0.0001) 0%, #44AFE0 100%), url(./Artwork.jpg);
+    background-size: cover;
+}
+
+.portfolio-card-description {
+    margin: 30px;
+    margin-top: 310px;
+}
+
+.portfolio-card-title {
+    margin-bottom: 0;
+    font-family: Sulphur Point;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.portfolio-card-subtitle {
+    margin-top: 0;
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.802972);
+}
+
+.portfolio-card-item:hover {
+    color: #F07867;
+    bottom: 100px;
+    transform: translate3d(0, 0, 0);
+}
+
+#HelperCard:hover {
+    background: linear-gradient(180deg, rgba(68, 175, 224, 0.0001) 0%, #C1E4F4 100%), url(./Artwork.jpg);
+    background-size: cover;
+}
+
+#MovieCard:hover {
+    background: linear-gradient(180deg, rgba(68, 175, 224, 0.0001) 0%, #C1E4F4 100%), url(./Artwork.jpg);
+    background-size: cover;
+}
+
+#CurrencyCard:hover {
+    background: linear-gradient(180deg, rgba(68, 175, 224, 0.0001) 0%, #C1E4F4 100%), url(./Artwork.jpg);
+    background-size: cover;
+}
+
+#PiggyCard:hover {
+    background: linear-gradient(180deg, rgba(68, 175, 224, 0.0001) 0%, #C1E4F4 100%), url(./Artwork.jpg);
+    background-size: cover;
+}
+
+#TaskTrackerCard:hover {
+    background: linear-gradient(180deg, rgba(68, 175, 224, 0.0001) 0%, #C1E4F4 100%), url(./Artwork.jpg);
+    background-size: cover;
+}
+
+#HelperCard:hover {
+    background: linear-gradient(180deg, rgba(68, 175, 224, 0.0001) 0%, #C1E4F4 100%), url(./Artwork.jpg);
+    background-size: cover;
+}

@@ -1,0 +1,61 @@
+.desktop-menu {
+    margin: 0;
+    margin-right: 135px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    display: flex;
+    position: fixed;
+    background-color:#10284B;
+    z-index: 20;
+    width: 100%;
+    left: 0;
+    right: 0; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    /* margin-top: 10px; */
+    margin-left: 135px;
+    font-family: Sulphur Point;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    flex-direction: left;
+    margin-left: 0%;
+}
+
+.menu-item {
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    color:rgb(236, 56, 51);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.295743);
+}
+
+.activeClass {
+    color:rgb(236, 56, 51);
+    border-bottom: 2px solid rgb(190, 101, 98);
+}
+
+.menu-cv-btn {
+    width: 170px;
+    height: 48px;
+    border: 1px solid rgba(255, 255, 255, 0.295743);
+    box-sizing: border-box;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 12px;
+    margin-right: 7%;
+    cursor: pointer;
+}
