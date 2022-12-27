@@ -101,7 +101,7 @@
 .header-yellow-square {
     width: 506px;
     height: 496px;
-    position: relative;
+    position: absolute;
     left: 120px;
     top: 100px;
     background: #F6B443;
